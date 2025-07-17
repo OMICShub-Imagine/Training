@@ -1,6 +1,7 @@
 # RNA-seq Intro Training (Wet-lab Friendly)
 
-This training module introduces basic R and RNA-seq data handling using a small GEO dataset (GSE155432). It’s intended for wet-lab scientists learning how to explore and visualize RNA-seq count data.
+This training module introduces basic R and RNA-seq data handling using a small GEO dataset (GSE155432). 
+It’s intended for wet-lab scientists learning how to explore and visualize RNA-seq count data.
 
 ## 📁 Contents
 - `data/`: Public GEO dataset (counts + metadata)
