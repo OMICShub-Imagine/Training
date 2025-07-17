@@ -1,6 +1,6 @@
 # RNA-seq Intro Training (Wet-lab Friendly)
 
-This short training module introduces basic R and data handling using a small GEO dataset (GSE155432). 
+This short training module introduces basic R and data handling using a simple GEO dataset (GSE60424). 
 It’s intended for wet-lab scientists learning how to explore and visualize RNA-seq count data.
 
 ## Contents
@@ -9,9 +9,10 @@ It’s intended for wet-lab scientists learning how to explore and visualize RNA
 - `notebooks/`: RMarkdown version with inline plots and explanations
 
 ## Dataset Info
-- Source: [GSE155432 (NCBI GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155432)
-- 6 samples: SH-SY5Y cells — differentiated vs undifferentiated
-- Format: raw gene counts (CSV), metadata with conditions
+- Source: [GSE60424 (NCBI GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE60424)
+- Organism: Homo sapiens
+- Samples: RNA was extracted from various human immune cell subsets, including neutrophils, monocytes, B cells, CD4+ T cells, CD8+ T cells, and natural killer cells, as well as whole blood samples.
+- Format: Raw gene counts (CSV), metadata with conditions
 
 ## Requirements (very basic!)
 - R ≥ 4.1
