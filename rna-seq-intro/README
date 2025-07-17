@@ -1,0 +1,29 @@
+# RNA-seq Intro Training (Wet-lab Friendly)
+
+This training module introduces basic R and RNA-seq data handling using a small GEO dataset (GSE155432). It’s intended for wet-lab scientists learning how to explore and visualize RNA-seq count data.
+
+## 📁 Contents
+- `data/`: Public GEO dataset (counts + metadata)
+- `scripts/`: R scripts for hands-on walkthrough
+- `notebooks/`: RMarkdown version with inline plots and explanations
+- `outputs/`: Plots and tables (optional)
+
+## 🧪 Dataset Info
+- Source: [GSE155432 (NCBI GEO)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE155432)
+- 6 samples: SH-SY5Y cells — differentiated vs undifferentiated
+- Format: raw gene counts (CSV), metadata with conditions
+
+## 🖥 Requirements
+- R ≥ 4.1
+- R packages: `tidyverse`, `ggplot2`, `readr`, `dplyr`
+
+## 📓 Suggested Session Flow
+1. Load data (`read_csv()`)
+2. Inspect sample and gene structure
+3. Visualize library sizes
+4. Identify highly expressed genes
+5. Homework: repeat using student's own RNA-seq data
+
+---
+
+This repo is designed for short hands-on training sessions and can be expanded to include DESeq2, PCA, volcano plots, and more.
