@@ -9,6 +9,9 @@ install.packages("tidyverse") # Includes readr, ggplot2, dplyr
 # Load (every session)
 library(tidyverse)
 
+#Setting up working directory (active folder)
+setwd("Desktop/Training/rna-seq-intro/") #change with your own path
+
 # Load data
 counts <- read_csv("data/GSE60424_counts.csv")
 metadata <- read_csv("data/GSE60424_metadata.csv")
